@@ -1,0 +1,20 @@
+version: '3'
+services:
+  web:
+    build: .
+    volumes:
+      - ./cgi-bin:/usr/local/apache2/cgi-bin
+    ports:
+      - '8081:80'
+  fcgi:
+    image: python:3.12-alpine
+    volumes:
+      - .:/app
+    working_dir: /app
+    command: python bin/fcgi_server.py
+  scgi:
+    image: python:3.12-alpine
+    volumes:
+      - .:/app
+    working_dir: /app
+    command: python bin/scgi_server.py
