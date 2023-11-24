@@ -4,8 +4,6 @@
 print("Content-Type: text/plain\n\nHello World!\n");
 
 print("\nEnvironment:\n");
-var_dump($_GET);
-var_dump($_POST);
 var_dump($_SERVER);
 
 print("\nInput:\n");

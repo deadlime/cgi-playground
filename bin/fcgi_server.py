@@ -1,5 +1,4 @@
 import socketserver
-import sys
 from pprint import pformat
 
 FCGI_END_REQUEST = 3
