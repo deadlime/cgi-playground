@@ -1,9 +1,9 @@
 # CGI playground
 
-This is a complementary repository for the following blog post:
+Related blog post:
 
-[TODO](TODO) (english)\
-[TODO](TODO) (hungarian)
+[Technologies left behind](https://deadlime.hu/en/2023/11/24/technologies-left-behind/) (english)\
+[Hátrahagyott technológiák](https://deadlime.hu/2023/11/24/hatrahagyott-technologiak/) (hungarian)
 
 To start the test server run:
 
